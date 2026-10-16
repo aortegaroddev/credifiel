@@ -12,8 +12,8 @@ EOF
 fi
 
 root_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-service_dir="$root_dir/service"
-frontend_dir="$root_dir/crudFront"
+service_dir="$root_dir/credifiel/service"
+frontend_dir="$root_dir/credifiel/crudFront"
 
 cleanup() {
   kill "$service_pid" "$frontend_pid" 2>/dev/null || true

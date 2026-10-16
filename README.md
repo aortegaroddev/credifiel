@@ -68,7 +68,7 @@ Después de definir las variables de conexión, puedes iniciar ambos proyectos d
 export DB_URL='jdbc:sqlserver://localhost:1433;databaseName=crud_personas;encrypt=true;trustServerCertificate=true'
 export DB_USERNAME='sa'
 export DB_PASSWORD='contraseña-segura'
-./scripts/start-dev.sh
+./start-dev.sh
 ```
 
 El script instala las dependencias del frontend si todavía no están disponibles e inicia ambos procesos. Usa `Ctrl+C` para detenerlos.
